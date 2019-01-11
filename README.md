@@ -18,11 +18,11 @@ Caso 3:
 - Entonces se lanza excepción inicando saldo insuficiente
 
 Caso 4:
-- Dadao que la cuenta A no existe
+- Dado que la cuenta A no existe
 - Cuando se transfiere de la cuenta A a B
 - Entonces se lanza ex.
 
 Caso 5:
-- Dadao que la cuenta B no existe
+- Dado que la cuenta B no existe
 - Cuando se transfiere de la cuenta A a B
 - Entonces se lanza ex.
