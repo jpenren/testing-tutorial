@@ -1,4 +1,4 @@
-# Ejercicio 1
+# Ejercicio 2
 
 Desarrollar la implementación del servicio de banca siguiendo TDD con las definiciones:
 
