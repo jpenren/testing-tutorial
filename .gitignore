@@ -1,6 +1,14 @@
 # Compiled class file
 *.class
 
+# Ide
+.settings/
+.classpath
+.project
+
+# Maven
+target/
+
 # Log file
 *.log
 
