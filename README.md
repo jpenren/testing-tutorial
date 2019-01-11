@@ -17,3 +17,12 @@ Caso 3:
 - Cuando se transfiere una cantidad superior al balence de la cuanta A
 - Entonces se lanza excepción inicando saldo insuficiente
 
+Caso 4:
+- Dadao que la cuenta A no existe
+- Cuando se transfiere de la cuenta A a B
+- Entonces se lanza ex.
+
+Caso 5:
+- Dadao que la cuenta B no existe
+- Cuando se transfiere de la cuenta A a B
+- Entonces se lanza ex.
