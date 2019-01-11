@@ -1,8 +1,28 @@
 # Ejercicio 1
 
-Desarrollar la implementación del servicio de banca siguiendo TDD con las siguientes definiciones:
+Desarrollar la implementación de la clase Calculator siguiendo TDD y con las definiciones:
 
-Dadas las cuentas A y B, ambas con un balance de 100
-Cuando se transfiere 50 de la cuenta A a B 
-Entonces el importe se resta en A y se añade a B
+Caso 1
+Dados dos valores positivos
+Cuando se realiza la operación add
+Entonces el resultado será la suma de los valores
 
+Caso 2
+Dados dos valores positivos
+Cuando se realiza la operación subtract
+Entonces el resultado será la resta de los valores
+
+Caso 3
+Dados dos valores positivos
+Cuando se realiza la operación multiply
+Entonces el resultado será la multiplicación de los valores
+
+Caso 4
+Dados dos valores positivos
+Cuando se realiza la operación divide
+Entonces el resultado será la división del primer parámetro por el segundo
+
+Caso 5
+Dado el valor A = valor >0 y B = 0
+Cuando se realiza la operación divide
+Entonces se lanzará una IllegalArgumentException
