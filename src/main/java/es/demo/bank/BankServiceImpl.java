@@ -4,6 +4,12 @@ import java.math.BigDecimal;
 
 public class BankServiceImpl implements BankService {
 
+    private final AccountRepository accountRepository;
+
+    public BankServiceImpl(AccountRepository accountRepository) {
+        this.accountRepository = accountRepository;
+    }
+
     @Override
     public Account getAccount(String number) {
         return null;
@@ -11,7 +17,7 @@ public class BankServiceImpl implements BankService {
 
     @Override
     public void transfer(String source, String destination, BigDecimal amount) {
-
+        
     }
-
+    
 }
