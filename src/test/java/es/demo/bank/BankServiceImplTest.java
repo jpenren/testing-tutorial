@@ -47,11 +47,10 @@ public class BankServiceImplTest {
         then(accountRepository).should(times(1)).save(sourceAccount);
         then(accountRepository).should(times(1)).save(dAccount);
         
-        BigDecimal expected = BigDecimal.valueOf(50);
         BigDecimal sourceAccountBalance = service.getAccount("1").getBalance();
-        assertEquals(expected, sourceAccountBalance);
-        BigDecimal dAccountBalance = service.getAccount("1").getBalance();
-        assertEquals(expected, dAccountBalance);
+        assertEquals(BigDecimal.valueOf(50), sourceAccountBalance);
+        BigDecimal dAccountBalance = service.getAccount("2").getBalance();
+        assertEquals(BigDecimal.valueOf(150), dAccountBalance);
     }
     
     @Test(expected=IllegalArgumentException.class)
